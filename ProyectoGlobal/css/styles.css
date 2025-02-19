@@ -1,0 +1,11 @@
+.navbar-customcolor {
+    background-color: #A8905B !important;
+}
+
+body {
+    background-image: url('../imagenes_video/Fondo.jpg');
+    background-size: cover; /*Ajusta la imagen para cubrir todo*/
+    background-position: center; /*Centra la imagen*/
+    background-repeat: no-repeat; /*No repetir la imagen*/
+    height: 100vh; /*Asegura que cubra toda la pantalla*/
+}
