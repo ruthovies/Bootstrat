@@ -4,8 +4,49 @@
 
 body {
     background-image: url('../imagenes_video/Fondo.jpg');
-    background-size: cover; /*Ajusta la imagen para cubrir todo*/
-    background-position: center; /*Centra la imagen*/
-    background-repeat: no-repeat; /*No repetir la imagen*/
-    height: 100vh; /*Asegura que cubra toda la pantalla*/
+    background-size: cover; /* Ajusta la imagen para cubrir */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    min-height: 100vh; /* Mínimo 100% del viewport */
+    height: auto; /* Permite que crezca si el contenido es mayor */
+}
+
+#imagen{
+    margin-top: 100px;
+}
+
+.info-section {
+    background: rgba(0, 0, 0, 0.6); /* Fondo oscuro con transparencia */
+    padding: 50px 20px;
+    border-radius: 15px;
+    max-width: 800px;
+    margin: 50px auto; /* Centra la sección */
+}
+
+.carousel {
+    border-radius: 20px; /* Esquinas redondeadas para el carrusel */
+    overflow: hidden; /* Evita que las imágenes sobresalgan */
+    max-width: 80%; /* Ajusta el ancho del carrusel */
+    margin: auto; /* Centra el carrusel */
+}
+
+.carousel-inner {
+    max-width: 80%; /* Ajusta el ancho del carrusel */
+    max-height: 500px; /* Ajusta la altura */
+    margin: auto; /* Centra el carrusel */
+    overflow: hidden; /* Evita que las imágenes se salgan del contenedor */
+}
+
+.carousel-inner img {
+    width: 100%; /* Asegura que todas las imágenes ocupen el ancho del contenedor */
+    height: 500px; /* Mantiene todas las imágenes con la misma altura */
+    object-fit: cover; /* Recorta la imagen sin distorsionar */
+    border-radius: 20px; /* Esquinas redondeadas */
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro con transparencia */
+    position: relative; /* Se mantiene en la parte inferior */
+    bottom: 0;
+    width: 100%;
 }
